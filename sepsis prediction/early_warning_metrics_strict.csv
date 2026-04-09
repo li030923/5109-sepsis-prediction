@@ -1,0 +1,5 @@
+Model,Alert Definition,Lead Time Window,Mean Lead Time (h),Mean False Alarms/Patient
+Logistic Regression,3 consecutive hours >= 0.6,within 24h before onset,6.88,0.54
+Random Forest,3 consecutive hours >= 0.6,within 24h before onset,5.99,0.27
+GRU,3 consecutive hours >= 0.6,within 24h before onset,5.85,0.36
+LSTM,3 consecutive hours >= 0.6,within 24h before onset,4.47,0.31
